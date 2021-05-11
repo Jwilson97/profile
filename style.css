@@ -37,17 +37,6 @@ a {
   object-fit: cover;
 }
 
-.btn-blue {
-  background-color: rgb(74, 110, 255);
-  color: white;
-  padding: 15px 20px;
-  border-radius: 4px;
-  font-family: helvetica;
-}
-
-.btn-blue:hover {
-  background-color: rgb(80, 150, 255);
-}
 
 .list-inline {
   list-style: none;
