@@ -1,5 +1,5 @@
 body {
-  background-color: #90b4b1;
+  background-color: #313131;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -73,7 +73,7 @@ a {
 }
 
 .footer {
-  background: #F4F4F4;
+  background: rgb(255, 252, 248);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -103,11 +103,43 @@ a {
   color: #D23333;
 }
 
+.earth {
+  width: 300px;
+  height: 300px;
+}
+
+.navbar{
+  background-color: rgb(255, 252, 248)
+}
+
+.navbar-brand {
+  color: #313131 !important;
+}
+
+.btn-portfolio{
+  background-color: #313131;
+  color: white;
+  text-decoration: none;
+  padding: 12px 8px;
+  border-radius: 8px;
+}
+
+.btn-portfolio:hover{
+  background-color: #3f3f3f;
+  color: white;
+  text-decoration: none;
+  padding: 12px 8px;
+  border-radius: 8px;
+}
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
+  }
+  .pup {
+    width: 500px;
+    height: 600px;
   }
 }
 @media (max-width: 720px) {
@@ -115,10 +147,26 @@ a {
   .container {
     width: 500px;
   }
+  .pup {
+    width: 400px;
+    height: 500px;
+  }
+  .earth {
+  width: 200px;
+  height: 200px;
+}
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
   }
+  .pup {
+    width: 200px;
+    height: 300px;
+  }
+  .earth {
+  width: 100px;
+  height: 100px;
+}
 }
